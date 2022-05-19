@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew install curl nload python3 python3-pip zsh git ranger tree fonts-firacode cmatrix tmux -y
+brew install curl nload python3 zsh git ranger tree fonts-firacode cmatrix tmux
 
 zsh
 
@@ -10,11 +10,6 @@ pip3 install bpytop speedtest-cli
 curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz | tar xz
 chmod +x gdu_linux_amd64
 mv gdu_linux_amd64 /usr/bin/gdu
-
-# Terminal web browser
-wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_amd64.deb
-brew install ./browsh_1.6.4_linux_amd64.deb -y
-rm ./browsh_1.6.4_linux_amd64.deb
 
 
 # Install Oh My ZSH
