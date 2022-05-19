@@ -1,2 +1,2 @@
-# Scripting
+# Shell
 Practicing shell scripting
