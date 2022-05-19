@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew install curl nload python3 zsh git ranger tree fonts-firacode cmatrix tmux
+brew install curl nload python3 zsh git ranger tree cmatrix tmux
 
 zsh
 
