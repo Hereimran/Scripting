@@ -1,0 +1,170 @@
+#!/bin/bash
+
+alias e='exit'
+
+alias c='clear'
+
+alias ls='ls --color=auto'
+
+alias ll='ls -lha'
+
+alias l.='ls -d .* --color=auto'
+
+alias lh='ls -lh --color=auto'
+
+alias cd..='cd ..'
+
+alias ..='cd ..'
+
+alias ...='cd ../../../'
+
+alias ....='cd ../../../../'
+
+alias .....='cd ../../../../'
+
+alias .4='cd ../../../../'
+
+alias .5='cd ../../../../..'
+
+alias grep='grep --color=auto'
+
+alias egrep='egrep --color=auto'
+
+alias fgrep='fgrep --color=auto'
+
+alias bc='bc -l'
+
+alias sha1='openssl sha1'
+
+alias mkdir='mkdir -pv'
+
+alias diff='colordiff'
+
+alias mount='mount |column -t'
+
+alias h='history'
+
+alias j='jobs -l'
+
+alias path='echo -e ${PATH//:/\\n}'
+
+alias now='date +"%T"'
+
+alias nowtime=now
+
+alias nowdate='date +"%d-%m-%Y"'
+
+alias vi=vim
+
+alias svi='sudo vi'
+
+alias vis='vim "+set si"'
+
+alias ping='ping -c 5'
+
+alias fastping='ping -c 100 -s.2'
+
+alias ports='netstat -tulanp'
+
+alias wakeupnas01='/usr/bin/wakeonlan 00:11:32:11:15:FC'
+
+alias header='curl -I'
+
+alias headerc='curl -I --compress'
+
+alias rm='rm -I --preserve-root'
+
+alias mv='mv -i'
+
+alias cp='cp -i'
+
+alias ln='ln -i'
+
+alias chown='chown --preserve-root'
+
+alias chmod='chmod --preserve-root'
+
+alias chgrp='chgrp --preserve-root'
+
+alias playavi='mplayer *.avi'
+
+alias vlc='vlc *.avi'
+
+alias playwave='for i in *.wav; do mplayer "$i"; done'
+
+alias playogg='for i in *.ogg; do mplayer "$i"; done'
+
+alias playmp3='for i in *.mp3; do mplayer "$i"; done'
+
+alias music='mplayer --shuffle *'
+
+alias meminfo='free -m -l -t'
+
+alias psmem='ps auxf | sort -nr -k 4'
+
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+
+alias pscpu='ps auxf | sort -nr -k 3'
+
+alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+
+alias cpuinfo='lscpu'
+
+alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
+
+alias wget='wget -c'
+
+alias ff4='/opt/firefox4/firefox'
+
+alias ff13='/opt/firefox13/firefox'
+
+alias chrome='/opt/google/chrome/chrome'
+
+alias opera='/opt/opera/opera'
+
+alias ff=ff13
+
+alias browser=chrome
+
+
+# ----------------------
+# Git Aliases
+# ----------------------
+alias g='git'
+alias ga='git add'
+alias gaa='git add .'
+alias gaaa='git add --all'
+alias gau='git add --update'
+alias gb='git branch'
+alias gbd='git branch --delete '
+alias gc='git commit'
+alias gcm='git commit --message'
+alias gcf='git commit --fixup'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gcom='git checkout master'
+alias gcos='git checkout staging'
+alias gcod='git checkout develop'
+alias gd='git diff'
+alias gda='git diff HEAD'
+alias gi='git init'
+alias glg='git log --graph --oneline --decorate --all'
+alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
+alias gm='git merge --no-ff'
+alias gma='git merge --abort'
+alias gmc='git merge --continue'
+alias gp='git pull'
+alias gpr='git pull --rebase'
+alias gr='git rebase'
+alias gs='git status'
+alias gss='git status --short'
+alias gst='git stash'
+alias gsta='git stash apply'
+alias gstd='git stash drop'
+alias gstl='git stash list'
+alias gstp='git stash pop'
+alias gsts='git stash save'
+
+
+alias hs='history | grep'
+
